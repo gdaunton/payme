@@ -93,13 +93,14 @@
   overflow: hidden;
 }
 
-span.bill {
+.bill {
   padding: 5px;
   display: block;
   position: absolute;
   z-index: 100;
   -webkit-animation: sway 30s ease-out infinite;
   animation: sway 30s ease-out infinite;
+  user-select: none;
 }
 
 @-webkit-keyframes drop{
