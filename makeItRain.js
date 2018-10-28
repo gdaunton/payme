@@ -4,10 +4,10 @@ var bills = document.createElement("div");
 bills.className = "bills";
 document.body.appendChild(bills);
 
-for (var i = 0; i < maxBills; i++) {
-  var windowWidth = window.innerWidth;
+var width = document.documentElement.clientWidth;
 
-  var randomPosition = Math.floor(windowWidth * Math.random());
+for (var i = 0; i < maxBills; i++) {
+  var randomPosition = Math.floor(width * Math.random());
 
   var randomTime = Math.random() * 20;
   var randomSpeed = Math.random() * 20 + 10;
