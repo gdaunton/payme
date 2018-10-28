@@ -16,12 +16,6 @@ body {
     background-color: #f5f8fa;
 }
 
-.title {
-    font-size: 48px;
-    text-align: center;
-    font-family: 'Nunito Sans', sans-serif;
-}
-
 .sources-wrapper {
     position: relative;
     z-index: 2;
